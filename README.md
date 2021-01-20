@@ -5,6 +5,8 @@ Repositório para a disciplina Laboratorio de Algoritmos e Estrutura de Dados 1 
 Os exercícios  foram submetidos e corrigidos pela a plataforma [run.codes](https://run.codes/) em uma turma virtual.
 
 ## Exercícios
+
+### Introdução
 - [0 Soma de dois números](/exercicios/00_somaDeDoisNumeros.c);
 - [1a Digitos](/exercicios/01_a_digitos.c);
 - [1b Decimal para Binário](/exercicios/01_b_decimalParaBinario.c);
