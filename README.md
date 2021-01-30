@@ -11,4 +11,3 @@ Os exercícios  foram submetidos e corrigidos pela a plataforma [run.codes](http
 - [1c - Potência](/exercicios/01_c_potencia.c);
 - [1d - Máximo Divisor Comum](/exercicios/01_d_maximoDivisorComum.c).
 - [2 - Jogo das Caixas](/exercicios/02_jogoDasCaixas.c)
-
