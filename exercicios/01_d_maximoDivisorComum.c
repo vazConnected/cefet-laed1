@@ -1,5 +1,5 @@
 /**
- * Autor: Pedro Henrique Estevam Vaz de Melo
+ * Autor: Pedro Vaz
  * Disciplina Laboratorio de Algoritmos e Estruturas de Dados I (LAED I)
  * 
  * Prazo para a entrega: 21/01/2021 25:55:55
