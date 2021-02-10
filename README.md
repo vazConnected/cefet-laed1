@@ -5,8 +5,10 @@ Repositório para a disciplina Laboratorio de Algoritmos e Estrutura de Dados 1 
 Os exercícios  foram submetidos e corrigidos pela a plataforma [run.codes](https://run.codes/) em uma turma virtual.
 
 ## Exercícios
-- [1a - Digitos](/exercicios/01_a_digitos.c);
-- [1b - Decimal para Binário](/exercicios/01_b_decimalParaBinario.c);
-- [1c - Potência](/exercicios/01_c_potencia.c);
-- [1d - Máximo Divisor Comum](/exercicios/01_d_maximoDivisorComum.c).
-- [2 - Jogo das Caixas](/exercicios/02_jogoDasCaixas.c)
+1. Introdução:
+   - [Digitos](exercicios/introducao/01_a_digitos.c);
+   - [Decimal para Binário](exercicios/introducao/01_b_decimalParaBinario.c);
+   - [Potência](exercicios/introducao/01_c_potencia.c);
+   - [Máximo Divisor Comum](exercicios/introducao/01_d_maximoDivisorComum.c).
+2. [Jogo das Caixas](exercicios/02_jogoDasCaixas.c);
+3. [Criptografia](exercicios/03_criptografia.c);
