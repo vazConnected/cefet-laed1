@@ -14,7 +14,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
-#include <math.h>
 
 void imprimirMensagem(char* stringCodificada, char* stringDecodificada, int tamanhoStringCod, int tamanhoStringDecod){
     printf("\n--------------------");
@@ -65,21 +64,26 @@ char* permutarBlocos(char* string, int tamanhoDaString){
 }
 
 void cifraDeCesar5Direita(char* string, int tamanhoString){
+    
     for(int i = 0; i < tamanhoString; i++){
+        int minimoID; // Numero ASCII da primeira letra do alfabeto
+        int maximoID; // Numero ASCII da ultima letra do alfabeto
+
+        if(string[i] >= (int)'a' && string[i] <= (int)'z'){
+            minimoID = (int) 'a';
+            maximoID = (int) 'z';
+        }else if(string[i] >= (int)'A' && string[i] <= (int)'Z'){
+            minimoID = (int) 'A';
+            maximoID = (int) 'Z';
+        }
+
         if(string[i] != ' '){
-            if(string[i] >= 97 && string[i] <= 122){
-                int marcacaoDeChar = string[i] - 5;
-                if(marcacaoDeChar < 97){
-                    marcacaoDeChar = 123 - abs(97 - marcacaoDeChar);
-                }
-                string[i] = marcacaoDeChar;
-            }else if(string[i] >= 65 && string[i] <= 90){
-                int marcacaoDeChar = string[i] - 5;
-                if(marcacaoDeChar < 65){
-                    marcacaoDeChar = 91 - abs(65 - marcacaoDeChar);
-                }
-                string[i] = marcacaoDeChar;
+            int marcadorDeTraducao = (int)string[i] - 5;
+            if(marcadorDeTraducao < minimoID){
+                int valorExtrapolado = minimoID - marcadorDeTraducao;
+                marcadorDeTraducao = maximoID - valorExtrapolado + 1;
             }
+            string[i] = (char) marcadorDeTraducao;
         }
     }
 }
@@ -123,17 +127,13 @@ int main(){
 
     // 3a etapa de decodificacao - VERIFICADO
     int tamanhoStringDecod = tamanhoStringCod;
-    for(int i = tamanhoStringCod - 1; stringDecodificada[i] == '#'; i--){
-        tamanhoStringDecod--;
-        stringDecodificada = (char*) realloc(stringDecodificada, tamanhoStringDecod);
-    }
     for(int i = 0; i < tamanhoStringDecod; i++){
         if(stringDecodificada[i] == '#'){
             stringDecodificada[i] = ' ';
         }
     }
 
-    // 4a etapa de decodificacao
+    // 4a etapa de decodificacao - VERIFICADO
     cifraDeCesar5Direita(stringDecodificada, tamanhoStringDecod);
 
     imprimirMensagem(stringCodificada, stringDecodificada, tamanhoStringCod, tamanhoStringDecod);
