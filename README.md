@@ -12,3 +12,4 @@ Os exercícios  foram submetidos e corrigidos pela a plataforma [run.codes](http
    - [Máximo Divisor Comum](exercicios/introducao/01_d_maximoDivisorComum.c).
 2. [Jogo das Caixas](exercicios/02_jogoDasCaixas.c);
 3. [Criptografia](exercicios/03_criptografia.c);
+4. [O Problema da Mochila](exercicios/04_oProblemaDaMochila.c);
