@@ -13,3 +13,4 @@ Os exercícios  foram submetidos e corrigidos pela a plataforma [run.codes](http
 2. [Jogo das Caixas](exercicios/02_jogoDasCaixas.c);
 3. [Criptografia](exercicios/03_criptografia.c);
 4. [O Problema da Mochila](exercicios/04_oProblemaDaMochila.c);
+5. [Análise de Segmentos](exercicios/05_analiseDeSegmentos.c);
