@@ -15,4 +15,5 @@ Os exercícios  foram submetidos e corrigidos pela a plataforma [run.codes](http
 4. [O Problema da Mochila](exercicios/04_oProblemaDaMochila.c);
 5. [Análise de Segmentos](exercicios/05_analiseDeSegmentos.c);
 6. Projeto:
-   - [Parte 1: busca por padrão em sequência;](exercicios/projeto/parte1_buscaPorPadraoEmSequencia.c)
+   - [Parte 1: busca por padrão em sequência](exercicios/projeto/parte1_buscaPorPadraoEmSequencia.c);
+   - [Parte 3: detecção de faixa de pedestres em imagem](exercicios/projeto/parte3_deteccaoDeFaixaDePedestresEmUmaImagem.c).
