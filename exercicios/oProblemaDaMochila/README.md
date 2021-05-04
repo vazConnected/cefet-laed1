@@ -52,7 +52,7 @@ por exemplo:</p>
   - Soma dos valores: R$ 40 + R$ 25 = R$ 65
   - Soma dos pesos: 8 Kg + 4 Kg = 11 Kg
 
-<h3>Formato de entrada dos dados<h3>
+<h3>Formato de entrada dos dados</h3>
 
 <p>A entrada do programa é um arquivo texto cujo nome deverá ser solicitado, conforme modelo a seguir:</p>
 
