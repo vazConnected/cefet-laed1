@@ -30,11 +30,9 @@
     <p>O programa deverá solicitar o nome do arquivo de entrada.</p>
     <h3>Formato de Saída de Dados</h3>
     <p>O programa deverá produzir a impressão na tela conforme o modelo a seguir, de acordo com o resultado encontrado (não utilize acentuação nem cedilha na saída para esse programa):</p>
-    <p><code>Digite o nome do arquivo: teste.txt</code></p>
-    <p><code>Resultado: Padrao encontrado.</code></p>
+    <pre><code><p>Digite o nome do arquivo: teste.txt</p><p>Resultado: Padrao encontrado.</p></code></pre>
     <p>Ou:</p>
-    <p><code>Digite o nome do arquivo: teste.txt</code></p>
-    <p><code>Resultado: Padrao nao encontrado.</code></p>
+    <pre><code><p>Digite o nome do arquivo: teste.txt</p><p>Resultado: Padrao nao encontrado.</p></code></pre>
 </details>
 
 <details>
@@ -53,11 +51,9 @@
     <p>O programa deverá solicitar o nome do arquivo de entrada.</p>
     <h3>Formato de Saída de Dados</h3>
     <p>O programa deverá produzir a impressão na tela conforme o modelo a seguir, de acordo com o resultado encontrado (não utilize acentuação nem cedilha na saída para esse programa):</p>
-    <p><code>Digite o nome do arquivo: teste.txt</code></p>
-    <p><code>Resultado: Padrao de faixa de pedestres encontrado.</code></p>
+    <pre><code><p>Digite o nome do arquivo: teste.txt</p><p>Resultado: Padrao de faixa de pedestres encontrado.</p></code></pre>
     <p>Ou:</p>
-    <p><code>Digite o nome do arquivo: teste.txt</code></p>
-    <p><code>Resultado: Padrao de faixa de pedestres nao encontrado.</code></p>
+    <pre><code><p>Digite o nome do arquivo: teste.txt</p><p>Resultado: Padrao de faixa de pedestres nao encontrado.</p></code></pre>
 </details>
 
 <details>
@@ -77,9 +73,7 @@
     <p>O programa deverá solicitar o nome do arquivo de entrada.</p>
     <h3>Formato de Saída de Dados</h3>
     <p>O programa deverá produzir a impressão na tela conforme o modelo a seguir, de acordo com o resultado encontrado (não utilize acentuação nem cedilha na saída para esse programa):</p>
-    <p><code>Digite o nome do arquivo: teste.txt</code></p>
-    <p><code>Resultado: Pista sem faixa de pedestres.</code></p>
+    <pre><code><p>Digite o nome do arquivo: teste.txt</p><p>Resultado: Pista sem faixa de pedestres.</p></code></pre>
     <p>Ou:</p>
-    <p><code>Digite o nome do arquivo: teste.txt</code></p>
-    <p><code>Resultado: Pista com faixa de pedestres.</code></p>
+    <pre><code><p>Digite o nome do arquivo: teste.txt</p><p>Resultado: Pista com faixa de pedestres.</p></code></pre>
 </details>
