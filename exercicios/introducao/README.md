@@ -5,12 +5,12 @@
 <details>
     <summary>Digitos</summary>
     <p>A função a seguir recebe como parâmetro um número inteiro N e retorna o número de dígitos de N:</p>
-    <pre><code>var s = "JavaScript syntax highlighting";<br>alert(s);</code></pre>
+    <pre><code><p>var s = "JavaScript syntax highlighting";</p><p>alert(s);</p></code></pre>
     <p>Reescreva a função Digitos tornando-a recursiva.</p>
     <p>Não será permitido utilizar variáveis globais, vetores, listas ou qualquer outra estrutura de dados para armazenar o resultado. O protótipo da função deverá, obrigatoriamente, ser:</p>
-    <pre><code>int Digitos(int N);</code></pre>
+    <pre><code><p>int Digitos(int N);</p></code></pre>
     <p>O programa deverá conter, além da função recursiva, uma função principal (main) para realização de testes, com o formato de saída de acordo com o exemplo a seguir:</p>
-    <pre><code>Digite um numero inteiro: 12345<br>Resultado: 5</code></pre>
+    <pre><code><p>Digite um numero inteiro: 12345</p><p>Resultado: 5</p></code></pre>
 </details>
 
 <details>
