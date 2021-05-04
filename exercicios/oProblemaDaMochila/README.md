@@ -56,7 +56,7 @@ por exemplo:</p>
 
 <p>A entrada do programa é um arquivo texto cujo nome deverá ser solicitado, conforme modelo a seguir:</p>
 
-<pre><code>Digite o nome do arquivo: </code></pre>
+<pre><code><p>Digite o nome do arquivo: </p></code></pre>
 
 - O arquivo texto deverá conter as informações sobre os n itens da loja, nesta ordem:
   -  na primeira linha: W (capacidade da mochila);
@@ -66,19 +66,18 @@ por exemplo:</p>
 
 <p>Todos valores são números inteiros. Veja a seguir um exemplo de arquivo de entrada, que corresponde à Solução 1 citada anteriormente:</p>
 
-<pre><code>10<br>6<br>1 20<br>2 5<br>3 10<br>8 40<br>7 15<br>4 25<br>1<br>0<br>0<br>1<br>0<br>0</code></pre>
+<pre><code><p>10</p><p>6</p><p>1 20</p><p>2 5</p><p>3 10</p><p>8 40</p><p>7 15</p><p>4 25</p><p>1</p><p>0</p><p>0</p><p>1</p><p>0</p><p>0</p></code></pre>
 
 <h3>Formato de saída dos dados</h3>
 
 <p>O programa deverá produzir a impressão de uma mensagem na tela conforme o resultado da verificação, de acordo com o seguinte modelo (não utilize acentuação nem cedilha na saída para este exercício):</p>
 
-<pre><code>Solucao otima.</code></pre>
+<pre><code><p>Solucao otima.</p></code></pre>
 
 <p>Ou:</p>
 
-<pre><code>Solucao viavel mas nao otima.</code></pre>
+<pre><code><p>Solucao viavel mas nao otima.</p></code></pre>
 
 <p>Ou:</p>
 
-<pre><code>Solucao inviavel.</code></pre>
-
+<pre><code><p>Solucao inviavel.</p></code></pre>
