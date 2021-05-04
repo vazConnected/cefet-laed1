@@ -4,7 +4,7 @@
 
 <p>Este jogo consiste de uma pilha de caixas de determinado valor em que cada fileira contém uma caixa a mais que a fileira anterior. O competidor deve escolher uma caixa e seu prêmio será a soma dos valores da caixa escolhida mais os valores de todas as caixas das fileiras acima dela, ou seja, todas as caixas das fileiras acima serão incluídas no cálculo também, sejam positivas ou negativas. Se o competidor fizer uma escolha ruim, o valor poderá ser negativo e não haverá prêmio.</p>
 
-<!-- imagens aqui !-->
+<img src="imagens_jogoDasCaixas/jogoDasCaixas.png" alt="Pilha de caixas" height = 150>
 
 <p>Por exemplo, para a seguinte configuração de caixas, a segunda caixa da terceira fileira deverá ser escolhida para obter o maior prêmio, cujo valor é igual a 17.</p>
 

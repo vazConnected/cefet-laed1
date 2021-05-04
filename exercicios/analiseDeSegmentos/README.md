@@ -9,7 +9,7 @@
 
 <p>Podemos agrupar os valores iguais em segmentos, como mostra a figura a seguir:</p>
 
-<!-- imagens aqui !-->
+<img src="imagens_analiseDeSegmentos/analiseDeSegmentos1.png" alt="ID segmentos na sequencia" height = 100>
 
 <p>O segmento será classificado conforme o valor dos seus elementos, fazendo-se um mapeamento dos valores em ordem crescente para os números positivos. No exemplo anterior, o mapeamento seria:</p>
 
@@ -21,7 +21,7 @@
 
 <p>Resultando na seguinte classificação dos segmentos do vetor:</p>
 
-<!-- imagens aqui !-->
+<img src="imagens_analiseDeSegmentos/analiseDeSegmentos2.png" alt="Segmentos com matriz mostrando o ID e a quantidade de elementos por ID" height = 100>
 
 <p>Nesse exemplo, N=11. Observe que a soma total do número de elementos deve ser igual a N.</p>
 
@@ -29,7 +29,7 @@
 
 <p>No exemplo deste problema, o número K = 4 e a matriz possui os seguintes valores:</p>
 
-<!-- imagens aqui !-->
+<img src="imagens_analiseDeSegmentos/analiseDeSegmentos3.png" alt="Matriz de segmentos" height = 100>
 
 <p>Os elementos do vetor serão fornecidos em um arquivo texto com o seguinte formato: na primeira linha o valor de N e na linha seguinte os N valores dos elementos do vetor separados por um espaço em branco.</p>
 

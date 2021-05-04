@@ -7,12 +7,12 @@
     <h3>Busca de Padrão em Lista</h3>
     <p>Uma imagem digital é uma matriz de elementos, podendo ter duas ou mais dimensões, em que cada elemento é um pixel com uma cor ou tom de cinza. Cada cor pode ser representada por um número (tom de cinza) ou por uma tupla (por exemplo, quando utiliza-se o sistema de cores RGB, que é a sigla para <em>Red Green Blue</em>, a representação da cor será uma tripla com três valores).</p>
     <p>Nesta primeira etapa do projeto, não será necessário trabalhar diretamente com imagens digitais, mas vamos tomá-las como exemplo para explicar o problema a ser resolvido. Considere as seguintes imagens de uma pista em miniatura:</p>
-    <!-- imagens aqui !-->
+    <img src="imagens_projeto/buscaPorPadraoEmLista1.png" alt="Duas imagens de uma pista" height = 150>
     <p>Quando a pista é percorrida com uma câmera e as imagens de cada instante são obtidas, surgem visões diferentes da pista, principalmente nas curvas, em que pode ocorrer cortes na visão da pista. Observe, por exemplo, a sequência de imagens a seguir:</p>
-    <!-- imagens aqui !-->
+    <img src="imagens_projeto/buscaPorPadraoEmLista2.png" alt="Seis imagens de uma pista" height = 200>
     <p>Nessa sequência de imagens, a partir da primeira, é possível ver que há uma curva próxima e, à medida que se caminha na pista e a curva se aproxima, a câmera captura cada vez menos as bordas da pista (que são as linhas brancas) devido ao seu campo de visão e ao seu movimento. Na última imagem da sequência, é possível ver somente a borda direita, ou seja, parte da pista foi cortada.</p>
     <p>Imagine agora que a pista foi colorida de vermelho. Se fizermos um corte na imagem e tormarmos apenas uma linha (desenhada em amarelo nas imagens abaixo), veremos que, quando a imagem da pista aparece sem cortes (primeira imagem), as cores que aparecem na altura da linha são preto, branco, vermelho, branco e preto, da esquerda para a direita.</p>
-    <!-- imagens aqui !-->
+    <img src="imagens_projeto/buscaPorPadraoEmLista3.png" alt="Duas imagens de uma pista vermelha" height = 150>
     <p>Quando a imagem da pista aparece com cortes, outras possibilidades são possíveis, por exemplo, na segunda imagem temos a seguinte sequência de cores na altura da linha amarela: vermelho, branco e preto, da esquerda para a direita.</p>
     <p>O objetivo da primeira parte do projeto é, dada uma linha da imagem, buscar pelo padrão de sequência de cores que indica que a pista está sendo vista por completo (da borda esquerda até a borda direita).</p>
     <p>No exercício de programação “Análise de segmentos com elementos iguais”, foi fornecido um arquivo com os valores (“cores”) dos elementos de uma linha e foi realizada a análise dos tipos dos segmentos e a contagem do número de elementos do respectivo segmento.</p>
@@ -39,9 +39,9 @@
     <summary>Projeto Parte 2</summary>
     <h3>Busca de Padrão em Sequência – Faixa de Pedestres</h3>
     <p>Na primeira etapa do projeto, foi implementada a busca pelo padrão da pista em uma linha da imagem (desenhada em amarelo na imagem de exemplo abaixo). Esse padrão é uma sequência de cores que indica que a pista está sendo vista por completo (da borda esquerda até a borda direita). A sequência de cores que aparecem na altura da linha amarela é: preto, branco, vermelho, branco e preto.</p>
-    <!-- imagens aqui !-->
+    <img src="imagens_projeto/buscaPorPadraoEmSequencia-faixaDePedestres1.png" alt="Pista colorida de vermelho" height = 150>
     <p>O objetivo da segunda parte do projeto é, dada uma linha da imagem, identificar o padrão de uma faixa de pedestres como, por exemplo, da imagem a seguir:</p>
-    <!-- imagens aqui !-->
+    <img src="imagens_projeto/buscaPorPadraoEmSequencia-faixaDePedestres2.png" alt="Pista com faixa de pedestres" height = 150>
     <p>Nesse exemplo há o padrão da faixa de pedestres em uma parte da sequência. Esse padrão é mostrado abaixo:</p>
     </p>| ... | | 1 | | 3 | | 1 | | 3 | | 1 | | 3 | | 1 | | 3 | | 1 | | 3 | | 1 | | 3 | | 1 | | ... |</p>
     <p>Há várias possibilidades de sequências em que o padrão pode ou não estar presente. O padrão será considerado presente na sequência somente se a sub-sequência “1 3 1 3 1 3 1 3 1 3 1 3 1” for encontrada nesta ordem</p>
@@ -60,7 +60,7 @@
     <summary>Projeto Parte 3</summary>
     <h3>Detecção de faixa de pedestres em uma imagem da pista</h3>
     <p>Na segunda etapa do projeto, foi implementada a identificação do padrão de uma faixa de pedestres dada uma linha da imagem. Considere que agora não há apenas um, mas L linhas selecionadas na imagem, como mostrado na figura abaixo, em que cada linha está colorida de azul.</p>
-    <!-- imagens aqui !-->
+    <img src="imagens_projeto/deteccaoDeFaixaDePedestresEmUmaImagemDaPista1.png" alt="Duas imagens de pistas de coloridas divididas em faixas horizontais" height = 150>
     <p>O objetivo da terceira etapa do projeto é realizar a detecção de faixa de pedestres em uma imagem da pista de forma simples, considerado as informações de vários perfis (linhas) da imagem. Dessa forma, cada perfil da imagem deverá ser analisado e o resultado (Pista normal, Faixa de pedestres ou Padrão não identificado) deverá ser armazenado em uma estrutura de dados do tipo lista. </p>
     <p>Para armazenar o resultado da análise de cada perfil em uma lista, utilize uma das implementações do livro texto do Ziviani para o tipo abstrato de dados Lista (por meio de arranjo ou apontadores), disponíveis em: <a href="http://www2.dcc.ufmg.br/livros/algoritmos/implementacoes-03.php">DCC UFMG</a>.</p>
     <p>Cada item da lista, que representa um perfil, deverá conter: um campo Chave (número inteiro que será atribuído sequencialmente a cada perfil lido do arquivo) e um campo Resultado (Pista normal, Faixa de pedestres ou Padrão não identificado).</p>
